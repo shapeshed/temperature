@@ -12,17 +12,19 @@ A conversion library for temperatures.
 
 ## Usage
 
-    package main
+package main
 
-    import (
-        "fmt"
-        "github.com/shapeshed/temperature"
-    )
+import (
+	"fmt"
+	"github.com/shapeshed/temperature"
+)
 
-    f := temperature.CtoF(10)
-    fmt.Println(f) // 10
+func main() {
+	f := temperature.CtoF(10)
+	fmt.Println(f) // 10
 
-    f := temperature.FtoC(32)
-    fmt.Println(f) // 0
+	c := temperature.FtoC(32)
+	fmt.Println(c) // 0
+}
 
 <!-- vim: set ts=4 sts=4 sw=4 expandtab: -->

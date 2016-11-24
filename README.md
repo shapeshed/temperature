@@ -1,6 +1,6 @@
 # Temperature
 
-This is an example package intended to demonstrate how to create and distribute a package in Go.
+An example package to demonstrate packages in Go
 
 [![Build Status](https://travis-ci.org/shapeshed/temperature.svg?branch=master)](https://travis-ci.org/shapeshed/temperature)
 
